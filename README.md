@@ -1,12 +1,12 @@
-<img width="120" height="120" align="left" style="float: left; margin: 0 10px 0 0;" alt="lb++" src="src/main/resources/assets/minecraft/liquidbounce%2B/big.png">
+<img width="120" height="120" align="left" style="float: left; margin: 0 10px 0 0;" alt="sp" src="src/main/resources/assets/minecraft/liquidbounce%2B/big.png">
 
-# LiquidBounce++              
+# SolidPressure             
      
 A free mixin-based injection hacked-client for Minecraft 1.8.9 using Minecraft Forge.
-Based on LiquidBounce+
+Used to be LiquidBounce++....
 
-## (not entirely) DISCONTINUED.
-LiquidBounce++ is now discontinued. You can still submit [Pull requests](https://github.com/MongusOrg/LiquidBouncePlusPlus/pulls) to contribute updating this client or if you want to use LiquidBounce++, you can [download here](https://plusplus.funniesthvh.uk).
+## DISCONTINUED.
+SolidPressure is now discontinued. You can't submit [Pull requests](https://github.com/MongusOrg/SolidPressure/pulls) to contribute updating this client or if you want to use SolidPressure, you can [download here](https://plusplus.funniesthvh.uk).
 
 ## RIP WYSI-Foundation
 We hope Inf returns with a new foundation.
@@ -23,7 +23,7 @@ We hope Inf returns with a new foundation.
    - Windows: %APPDATA%\\.minecraft\\mods
    - Mac OS: ~/Library/Application Support/minecraft/mods
    - Linux: ~/.minecraft/mods
-5. Put LiquidBounce++ jar in the mods folder
+5. Put LiquidBounce++ jar (It's solidpressure, my mistakes) in the mods folder
 6. Run forge 1.8.9 in your minecraft launcher again
 
 ## License
@@ -44,8 +44,8 @@ this project entirely or partially for free and even commercially. However, plea
 Do the above and share your source code with everyone; just like we do.
 
 ## Setting up a Workspace
-LiquidBounce++ is using Gradle, so make sure that it is installed properly. Instructions can be found on [Gradle's website](https://gradle.org/install/).
-1. Clone the repository using `git clone https://github.com/MongusOrg/LiquidBouncePlusPlus`. 
+SolidPressure is using Gradle, so make sure that it is installed properly. Instructions can be found on [Gradle's website](https://gradle.org/install/).
+1. Clone the repository using `git clone https://github.com/MongusOrg/SolidPressure`. 
 2. CD into the local repository folder.
 3. Depending on which IDE you are using execute either of the following commands:
     - For IntelliJ: `gradlew setupDevWorkspace idea genIntellijRuns build`
@@ -57,4 +57,4 @@ LiquidBounce++ is using Gradle, so make sure that it is installed properly. Inst
 
 ## Additional libraries
 ### Mixins
-Mixins can be used to modify classes at runtime before they are loaded. LiquidBounce++ is using it to inject its code into the Minecraft client. This way, we do not have to ship Mojang's copyrighted code. If you want to learn more about it, check out its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
+Mixins can be used to modify classes at runtime before they are loaded. SolidPressure is using it to inject its code into the Minecraft client. This way, we do not have to ship Mojang's copyrighted code. If you want to learn more about it, check out its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
